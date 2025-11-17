@@ -29,8 +29,6 @@ group by country
 order by total_reveneu desc;
 
 ### Result
-1) sales revenue and profit by country for february.PNG
-https://github.com/amanu2-design/Multinational-Retail-EDA-Project/blob/main/1)%20sales%20revenue%20and%20profit%20by%20country%20for%20february.PNG
 <img width="351" height="195" alt="1) sales revenue and profit by country for february" src="https://github.com/user-attachments/assets/2fb1ea6b-f764-4646-ad96-0a5a25dccc3f" />
 
 ### Interpretation of the result
@@ -50,8 +48,9 @@ where "date" between '2025-02-1' and '2025-02-28'
 group by product_name
 order by sum(quantity_purchased) desc
 limit 5;
+
 ### Result
- 
+ <img width="273" height="167" alt=")Top 5 best saling products" src="https://github.com/user-attachments/assets/5f41fa04-238e-4981-b044-64eb26096983" />
 
 ### Interpretation
 Degree hold the first while shake are the last of top 5
@@ -64,6 +63,7 @@ Shake need extra marketing and stock
 select sales_representative,
         sum(total_amount) as Totale_sale
 from sales_data
+
 where "date" between '2025-02-1' and '2025-02-28'
 group by sales_representative
 order by sum(total_amount) desc
@@ -71,6 +71,7 @@ limit 5;
 
 ### Result
  
+<img width="280" height="168" alt="Best sales representataive" src="https://github.com/user-attachments/assets/69158743-d317-4fe3-b329-07266d682825" />
 
 ### Interpretation
 Jermaine Charles and Jessica Lee are leading with top 2 respectively from top 5 ,While Craig Harris hold the 5th row
@@ -80,6 +81,7 @@ Jermaine Charles is doing good with almost 5000 sales per month and he had to ap
 Crag harris need furthered follow-up   
 
 ## 4) which store location is generating the highest revenue
+
 ### SQL query
 select store_location,
        sum(total_amount) as total_sales,
@@ -89,8 +91,10 @@ where "date" between '2025-02-1' and '2025-02-28'
 group by store_location
 order by sum(total_amount) desc
 limit 5;
+
 ### Result
- 
+ <img width="343" height="166" alt="Store generating higest revenue" src="https://github.com/user-attachments/assets/48e04e3d-6d94-4330-8985-d0450de9e061" />
+
 ### Interpretation
 Stores in New York, Port Harcort are top 3 respectively, while Ls Angeles stores is the last at the line
 
@@ -112,6 +116,7 @@ where "date" between '2025-02-1' and '2025-02-28'
 
 ### Result  
 
+<img width="983" height="69" alt="Key sales and profit insight for feb" src="https://github.com/user-attachments/assets/7381a049-57e2-4748-8543-f7af866e1a8d" />
 
 
 
