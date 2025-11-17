@@ -29,7 +29,8 @@ group by country
 order by total_reveneu desc;
 
 ### Result
-
+1) sales revenue and profit by country for february.PNG
+2) https://github.com/amanu2-design/Multinational-Retail-EDA-Project/blob/main/1)%20sales%20revenue%20and%20profit%20by%20country%20for%20february.PNG
  
 ### Interpretation of the result
 Nigeria, USA and UK are leading with top 3 revenue respectively , while India and Canada hold the last rank.
